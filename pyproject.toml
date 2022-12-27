@@ -7,7 +7,7 @@ build-backend = "pdm.pep517.api"
 
 [project]
 name = "django-migrate-middleware"
-version = "0.0.2"
+version = "1.0.0"
 description = "Run migrations on every request"
 authors = [
     {name = "lukewiwa", email = "luke.wiwa@gmail.com"}
