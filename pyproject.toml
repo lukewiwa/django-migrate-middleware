@@ -1,3 +1,7 @@
+[tool.pdm.scripts]
+lint = "ruff ."
+format = "black ."
+
 [tool.pdm.build]
 includes = ["django_migrate_middleware"]
 [build-system]
@@ -24,3 +28,9 @@ classifiers = [
 
 [project.urls]
 "Homepage" = "https://github.com/lukewiwa/django-migrate-middleware"
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.0.209",
+    "black>=22.12.0",
+]
