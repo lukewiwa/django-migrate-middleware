@@ -10,7 +10,6 @@
 		"--env-file=.env"
 	],
 	"features": {
-		"ghcr.io/devcontainers-contrib/features/pdm:1": {},
 		"ghcr.io/dhoeric/features/hadolint:1": {},
 		"ghcr.io/guiyomh/features/vim:0": {},
 		"ghcr.io/devcontainers/features/common-utils:2": {},
@@ -27,11 +26,7 @@
 				"VisualStudioExptTeam.vscodeintellicode",
 				"ms-python.python",
 				"ms-python.vscode-pylance"
-			],
-			"settings": {
-					"python.autoComplete.extraPaths": ["__pypackages__/3.7/lib"],
-					"python.analysis.extraPaths": ["__pypackages__/3.7/lib"]
-			}
+			]
 		}
 	},
 
