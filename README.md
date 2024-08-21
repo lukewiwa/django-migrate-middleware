@@ -11,8 +11,17 @@ pip install django-migrate-middleware
 In the django settings file add package to the middleware settings.
 
 ```python
+INSTALLED_APPS = [
+    ...
+    "migrate_middleware"
+    ...
+]
+
 MIDDLEWARE = [
-    "django_migrate_middleware.MigrateMiddleware",
-  # ...
+    "migrate_middleware.MigrateMiddleware",
+    ...
 ]
 ```
+## Configuration
+
+- MIGRATE_MIDDLEWARE_COLOR_OUTPUT: force color output
